@@ -1,0 +1,62 @@
+.head{
+    color: #ff0000;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    padding: 30px
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+h3{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #ff0000;
+}    
+
+body{
+    background-color: #808080;
+}
+
+.programmingSites{
+    padding: 100px
+}
+
+a:link{
+    color:#ff0000;
+}
+
+a:visited{
+    color:black;
+}
+
+.games{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.game{
+    position: relative;  
+
+}
+
+.game h3{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    opacity: 0;
+}
+
+.game:hover h3{
+    opacity:5;
+}
+
+.game:hover img{
+    opacity:0.33;
+}
